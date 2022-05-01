@@ -10,7 +10,7 @@ require 'faker'
 Pet.delete_all
 puts "Creating pets..."
 
-100.times do
+10.times do
   Pet.create!(
     name: Faker::FunnyName.name,
     address: Faker::Address.street_address,
